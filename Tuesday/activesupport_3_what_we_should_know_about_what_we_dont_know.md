@@ -1,7 +1,7 @@
 # ActiveSupport 3: What We Should Know About What We Don't Know
 ## Bryan Liles (Smarticus)
-[Slides]("http://smartic.us/doodads/presentations/railsconf2011/")  
-[@bryanl]("http://twitter.com/bryanl")  
+[Slides](http://smartic.us/doodads/presentations/railsconf2011/)  
+[@bryanl](http://twitter.com/bryanl)  
 
 ### HISTORY LESSON
 * Ruby facets  

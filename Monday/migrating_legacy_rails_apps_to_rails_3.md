@@ -1,8 +1,8 @@
 # Upgrading Legacy Rails Applications to Rails 3
 ## Clinton R. Nixon (CRNixon Development)
-[@crnixon]("http://twitter.com/crnixon")  
+[@crnixon](http://twitter.com/crnixon)  
 [Slides [PDF]](http://assets.en.oreilly.com/1/event/59/Upgrading%20Legacy%20Rails%20Applications%20to%20Rails%203%20Presentation.pdf)  
-[Curated list of links on upgrading which provide foundation for talk]("http://pinboard.in/u:crnixon/t:rails3upgrade")  
+[Curated list of links on upgrading which provide foundation for talk](http://pinboard.in/u:crnixon/t:rails3upgrade)  
 
 ### TOP 10 REASONS TO UPGRADE
  10.ARel - ActiveRelation  
@@ -34,7 +34,7 @@ Improve practices in application since 2.3 gets you ready for 3.x and makes upgr
 *  raw helper is opposite of h helper
 *  .html_safe marks strings as safe  
     `def clippy()
-      "#{unsafe} string" # but really it is
+      #{unsafe} string # but really it is
       html.html_safe
     end`
     
@@ -52,7 +52,7 @@ Improve practices in application since 2.3 gets you ready for 3.x and makes upgr
      `redirect_to(@post, :notice => 'Post was created')`
 *  Object#presence
 *  Object#tap instead of Object#returning which is removed  
-      `[].tap do {|x| x << "hello"}`  
+      `[].tap do {|x| x << hello}`  
    *  Can tap into chain of methods at any point and pass a block  
    *  Good for debugging  
 *  Non-ActiveRecord fixtures will break in test/fixtures
@@ -74,7 +74,7 @@ Improve practices in application since 2.3 gets you ready for 3.x and makes upgr
    *  installs gems with native C extensions directly on each environment
 *  bundle update  
    *  use when upgrading/updating gems
-*  [Details on bundler workflow]("http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/")
+*  [Details on bundler workflow](http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/)
 
   
 ### PLUGINS & GEMS
@@ -125,7 +125,7 @@ $ rails new . -d <database>
 *  use simple_form for rails 3 and be happy
   
 ### JSON
-*  [as\_json intead of to\_json]("http://jonathanjulian.com/2010/04/rails-to_json-or-as_json/")
+*  [as\_json intead of to\_json](http://jonathanjulian.com/2010/04/rails-to_json-or-as_json/)
   
   
 ### FIXING & REPLACING DEPENDENCIES
@@ -142,7 +142,7 @@ $ rails new . -d <database>
 *  For Solr, you should use `sun_spot` instead of `acts_as_solr`
     
 ### RAILS 3.1 UPGRADE NOTES
-*   Get [Jeremy McAnally's upgrade to Rails 3 ebook]("http://omgbloglol.com/post/344792822/the-path-to-rails-3-introduction")
+*   Get [Jeremy McAnally's upgrade to Rails 3 ebook](http://omgbloglol.com/post/344792822/the-path-to-rails-3-introduction)
 *   Look for discreet parts you can upgrade without breaking your application
 *   git add --patch  
       show changes which have been made   
