@@ -1,6 +1,6 @@
 # Confident Code
 ## Avdi Grimm (ShipRise LLC)
-[Slides](http://avdi.org/talks/confident-code-railsconf-2011/)
+[Slides](http://avdi.org/talks/confident-code-railsconf-2011/)  
 [@avdi](http://twitter.com/avdi)
 
 ### WHAT IS THIS TALK ABOUT?
