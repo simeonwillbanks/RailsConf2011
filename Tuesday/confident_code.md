@@ -1,7 +1,8 @@
 # Confident Code
 ## Avdi Grimm (ShipRise LLC)
 [Slides](http://avdi.org/talks/confident-code-railsconf-2011/)  
-[@avdi](http://twitter.com/avdi)
+[@avdi](http://twitter.com/avdi)  
+[Blog follow up](http://avdi.org/devblog/2011/05/30/null-objects-and-falsiness/)  
 
 ### WHAT IS THIS TALK ABOUT?
 * Code Construction which is defined in Code Complete
